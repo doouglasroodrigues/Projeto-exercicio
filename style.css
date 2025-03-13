@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+}
+
+body {
+    background-color: rgba(83, 59, 59, 0.503);
+    background-image: url(https://harald.com.br/wp-content/uploads/2024/08/cupcake-de-chocolate-1920x1079.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    
+    max-width: 600px;
+    background-color: #ebe3be;
+    margin: auto;
+    padding: 30px;
+    margin-top: 35px;
+    border-radius: 25px;
+}
+
+section.imagem {
+    background-image: url(https://www.iped.com.br/_upload/content/2014/12/22/receita-cupcake-chocolate.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 25em;
+    
+}
+
+section.conteudo {
+    color: #573a37;
+}
+div.informações > h1 {
+    line-height: 50px;
+}
+
+h2 {
+    line-height: 50px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+footer > p {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-shadow: 1px 1px 7px black;
+}
